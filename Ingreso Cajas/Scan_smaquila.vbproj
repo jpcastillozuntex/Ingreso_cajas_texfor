@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{42D7E4F6-FE3E-4F27-B574-2DBC0284139D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Ingreso_Cajas.My.MyApplication</StartupObject>
+    <RootNamespace>Ingreso_Cajas</RootNamespace>
+    <AssemblyName>Ingreso Cajas</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>\\192.9.200.10\programas\programas\vb2010\Scan_pack\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Background</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>\\192.9.200.10\programas\programas\vb2010\Scan_pack\</UpdateUrl>
+    <ApplicationRevision>61</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Ingreso Cajas.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Ingreso Cajas.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>HOODIE.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>D5754A2DF020789B5ADAA3D68E87A9CB45CBC659</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Ingreso Cajas_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="C1.Win.C1FlexGrid.2, Version=2.6.20132.781, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abre_DB.vb" />
+    <Compile Include="Cajas.vb" />
+    <Compile Include="Cajas01.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cajas01_D.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cajas02.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cajas03.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cajas04.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cajas05.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cajas05_I.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cajas10.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cajas11.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cajas12.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cajas20.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cajas21.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cajas22.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cajas25.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cajas35.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cajas99.designer.vb">
+      <DependentUpon>Cajas99.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cajas99.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cajas_esp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cajas_esp_c.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cajas_s.vb" />
+    <Compile Include="empresa.vb" />
+    <Compile Include="menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Cajas01.resx">
+      <DependentUpon>Cajas01.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cajas01_D.resx">
+      <DependentUpon>Cajas01_D.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cajas02.resx">
+      <DependentUpon>Cajas02.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cajas03.resx">
+      <DependentUpon>Cajas03.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cajas04.resx">
+      <DependentUpon>Cajas04.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cajas05.resx">
+      <DependentUpon>Cajas05.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cajas05_I.resx">
+      <DependentUpon>Cajas05_I.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cajas10.resx">
+      <DependentUpon>Cajas10.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cajas11.resx">
+      <DependentUpon>Cajas11.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cajas12.resx">
+      <DependentUpon>Cajas12.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cajas20.resx">
+      <DependentUpon>Cajas20.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cajas21.resx">
+      <DependentUpon>Cajas21.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cajas22.resx">
+      <DependentUpon>Cajas22.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cajas25.resx">
+      <DependentUpon>Cajas25.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cajas35.resx">
+      <DependentUpon>Cajas35.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cajas99.resx">
+      <DependentUpon>Cajas99.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cajas_esp.resx">
+      <DependentUpon>cajas_esp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cajas_esp_c.resx">
+      <DependentUpon>cajas_esp_c.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu.resx">
+      <DependentUpon>menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Ingreso Cajas_TemporaryKey.pfx" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bermudon.ico" />
+    <Content Include="HOODIE.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
