@@ -62,7 +62,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>YrHsGccWrfgUtaA25hr56F4+N9beoHR1JZvOHR+NMhI=</dsig:DigestValue>
+        <dsig:DigestValue>8BopTgipN9pn7OEqNBp429VDBusAUSRKduB5WngQJSE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -91,14 +91,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Ingreso_Cajas_texfor.exe" size="3651584">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Ingreso_Cajas_texfor.exe" size="3652096">
       <assemblyIdentity name="Ingreso_Cajas_texfor" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>OpwPCFCQf7c1pydUY/SGHjW9G2etLF8/0z/UTc64JCA=</dsig:DigestValue>
+        <dsig:DigestValue>E6xRLIeQNwoNEIJjSGCh+2htV8nafP75QHegUJ+OTiE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

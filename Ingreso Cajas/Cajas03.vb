@@ -625,12 +625,14 @@ Public Class Cajas03
         Dim i As Integer
         Dim etique As String
         Dim pr As New C1cajas.prt
+        Dim ListadoCajas As String = caja_nueva
         Try
-            For i = 1 To caja_nueva.Length Step 9
+            For i = 1 To ListadoCajas.Length Step 9
                 etique = Mid(caja_nueva, i, 9)
                 ok = pr.imprime_cajas_s(etique, etique, obj.seccion, obj.numero, obj.constr)
             Next
-        Catch
+        Catch ex As Exception
+            MsgBox("SendStringtoPrinter Error" & vbCrLf & ex.Message)
         End Try
     End Sub
 

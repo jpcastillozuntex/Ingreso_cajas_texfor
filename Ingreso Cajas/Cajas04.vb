@@ -109,9 +109,9 @@ Public Class Cajas04
         '
         Me.corte.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.corte.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.corte.Location = New System.Drawing.Point(223, 19)
+        Me.corte.Location = New System.Drawing.Point(255, 24)
         Me.corte.Name = "corte"
-        Me.corte.Size = New System.Drawing.Size(189, 28)
+        Me.corte.Size = New System.Drawing.Size(216, 33)
         Me.corte.TabIndex = 0
         Me.ToolTip1.SetToolTip(Me.corte, "No. de corte.")
         '
@@ -119,9 +119,9 @@ Public Class Cajas04
         '
         Me.cajad.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.cajad.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cajad.Location = New System.Drawing.Point(199, 31)
+        Me.cajad.Location = New System.Drawing.Point(227, 39)
         Me.cajad.Name = "cajad"
-        Me.cajad.Size = New System.Drawing.Size(189, 28)
+        Me.cajad.Size = New System.Drawing.Size(216, 33)
         Me.cajad.TabIndex = 2
         Me.ToolTip1.SetToolTip(Me.cajad, " No.  Caja.")
         '
@@ -131,9 +131,9 @@ Public Class Cajas04
         Me.sigue.Font = New System.Drawing.Font("Comic Sans MS", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.sigue.ForeColor = System.Drawing.Color.Black
         Me.sigue.Image = CType(resources.GetObject("sigue.Image"), System.Drawing.Image)
-        Me.sigue.Location = New System.Drawing.Point(886, 196)
+        Me.sigue.Location = New System.Drawing.Point(1013, 248)
         Me.sigue.Name = "sigue"
-        Me.sigue.Size = New System.Drawing.Size(60, 40)
+        Me.sigue.Size = New System.Drawing.Size(68, 51)
         Me.sigue.TabIndex = 7
         Me.sigue.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.ToolTip1.SetToolTip(Me.sigue, "Chequeo de Datos")
@@ -145,9 +145,9 @@ Public Class Cajas04
         Me.si.Font = New System.Drawing.Font("Comic Sans MS", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.si.ForeColor = System.Drawing.Color.Black
         Me.si.Image = CType(resources.GetObject("si.Image"), System.Drawing.Image)
-        Me.si.Location = New System.Drawing.Point(857, 19)
+        Me.si.Location = New System.Drawing.Point(979, 24)
         Me.si.Name = "si"
-        Me.si.Size = New System.Drawing.Size(60, 40)
+        Me.si.Size = New System.Drawing.Size(69, 51)
         Me.si.TabIndex = 1
         Me.si.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.ToolTip1.SetToolTip(Me.si, "Chequeo de Datos")
@@ -159,9 +159,9 @@ Public Class Cajas04
         Me.Cancela.Font = New System.Drawing.Font("Comic Sans MS", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Cancela.ForeColor = System.Drawing.Color.Black
         Me.Cancela.Image = CType(resources.GetObject("Cancela.Image"), System.Drawing.Image)
-        Me.Cancela.Location = New System.Drawing.Point(925, 19)
+        Me.Cancela.Location = New System.Drawing.Point(1069, 24)
         Me.Cancela.Name = "Cancela"
-        Me.Cancela.Size = New System.Drawing.Size(60, 40)
+        Me.Cancela.Size = New System.Drawing.Size(69, 51)
         Me.Cancela.TabIndex = 104
         Me.Cancela.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.ToolTip1.SetToolTip(Me.Cancela, "Presione este Boton para Cancelar toda la operación y limpiar todos los datos sin" &
@@ -173,9 +173,9 @@ Public Class Cajas04
         Me.tallad.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.tallad.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tallad.Items.AddRange(New Object() {"JT", "TRECENTO", "ZUNTEX"})
-        Me.tallad.Location = New System.Drawing.Point(199, 102)
+        Me.tallad.Location = New System.Drawing.Point(227, 129)
         Me.tallad.Name = "tallad"
-        Me.tallad.Size = New System.Drawing.Size(189, 28)
+        Me.tallad.Size = New System.Drawing.Size(216, 33)
         Me.tallad.TabIndex = 4
         Me.ToolTip1.SetToolTip(Me.tallad, "Talla.")
         '
@@ -184,9 +184,9 @@ Public Class Cajas04
         Me.cobrar.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.cobrar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cobrar.Items.AddRange(New Object() {"Si", "No"})
-        Me.cobrar.Location = New System.Drawing.Point(705, 101)
+        Me.cobrar.Location = New System.Drawing.Point(806, 128)
         Me.cobrar.Name = "cobrar"
-        Me.cobrar.Size = New System.Drawing.Size(189, 28)
+        Me.cobrar.Size = New System.Drawing.Size(216, 33)
         Me.cobrar.TabIndex = 106
         Me.ToolTip1.SetToolTip(Me.cobrar, "Se cobra o no.")
         '
@@ -194,9 +194,9 @@ Public Class Cajas04
         '
         Me.tipod.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.tipod.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tipod.Location = New System.Drawing.Point(199, 66)
+        Me.tipod.Location = New System.Drawing.Point(227, 84)
         Me.tipod.Name = "tipod"
-        Me.tipod.Size = New System.Drawing.Size(189, 28)
+        Me.tipod.Size = New System.Drawing.Size(216, 33)
         Me.tipod.TabIndex = 3
         Me.ToolTip1.SetToolTip(Me.tipod, "Tipo de prenda.")
         '
@@ -204,10 +204,10 @@ Public Class Cajas04
         '
         Me.unidn.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.unidn.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
-        Me.unidn.Location = New System.Drawing.Point(704, 137)
+        Me.unidn.Location = New System.Drawing.Point(805, 174)
         Me.unidn.MaxLength = 20
         Me.unidn.Name = "unidn"
-        Me.unidn.Size = New System.Drawing.Size(189, 26)
+        Me.unidn.Size = New System.Drawing.Size(216, 30)
         Me.unidn.TabIndex = 6
         Me.unidn.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -217,9 +217,9 @@ Public Class Cajas04
         Me.graba.Font = New System.Drawing.Font("Comic Sans MS", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.graba.ForeColor = System.Drawing.Color.Black
         Me.graba.Image = CType(resources.GetObject("graba.Image"), System.Drawing.Image)
-        Me.graba.Location = New System.Drawing.Point(857, 19)
+        Me.graba.Location = New System.Drawing.Point(953, 24)
         Me.graba.Name = "graba"
-        Me.graba.Size = New System.Drawing.Size(60, 40)
+        Me.graba.Size = New System.Drawing.Size(69, 51)
         Me.graba.TabIndex = 9
         Me.graba.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.graba.UseVisualStyleBackColor = False
@@ -231,10 +231,10 @@ Public Class Cajas04
         Me.fg.ColumnInfo = resources.GetString("fg.ColumnInfo")
         Me.fg.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.fg.HighLight = C1.Win.C1FlexGrid.HighLightEnum.Never
-        Me.fg.Location = New System.Drawing.Point(23, 345)
+        Me.fg.Location = New System.Drawing.Point(26, 437)
         Me.fg.Name = "fg"
         Me.fg.Rows.DefaultSize = 21
-        Me.fg.Size = New System.Drawing.Size(962, 316)
+        Me.fg.Size = New System.Drawing.Size(1100, 400)
         Me.fg.StyleInfo = resources.GetString("fg.StyleInfo")
         Me.fg.TabIndex = 92
         '
@@ -243,9 +243,9 @@ Public Class Cajas04
         Me.Label3.BackColor = System.Drawing.Color.SteelBlue
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(29, 16)
+        Me.Label3.Location = New System.Drawing.Point(33, 20)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(173, 32)
+        Me.Label3.Size = New System.Drawing.Size(198, 41)
         Me.Label3.TabIndex = 94
         Me.Label3.Text = "Corte:"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -255,9 +255,9 @@ Public Class Cajas04
         Me.Label1.BackColor = System.Drawing.Color.SteelBlue
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(6, 31)
+        Me.Label1.Location = New System.Drawing.Point(7, 39)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(173, 28)
+        Me.Label1.Size = New System.Drawing.Size(198, 36)
         Me.Label1.TabIndex = 95
         Me.Label1.Text = "Caja:"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -267,9 +267,9 @@ Public Class Cajas04
         Me.Label2.BackColor = System.Drawing.Color.SteelBlue
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(6, 101)
+        Me.Label2.Location = New System.Drawing.Point(7, 128)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(173, 28)
+        Me.Label2.Size = New System.Drawing.Size(198, 35)
         Me.Label2.TabIndex = 96
         Me.Label2.Text = "Talla:"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -279,9 +279,9 @@ Public Class Cajas04
         Me.Label5.BackColor = System.Drawing.Color.SteelBlue
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.Location = New System.Drawing.Point(6, 173)
+        Me.Label5.Location = New System.Drawing.Point(7, 219)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(173, 28)
+        Me.Label5.Size = New System.Drawing.Size(198, 36)
         Me.Label5.TabIndex = 98
         Me.Label5.Text = "Unidades:"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -311,9 +311,9 @@ Public Class Cajas04
         Me.GroupBox1.Controls.Add(Me.cajad)
         Me.GroupBox1.Controls.Add(Me.Label5)
         Me.GroupBox1.ForeColor = System.Drawing.Color.Black
-        Me.GroupBox1.Location = New System.Drawing.Point(24, 73)
+        Me.GroupBox1.Location = New System.Drawing.Point(27, 92)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(961, 254)
+        Me.GroupBox1.Size = New System.Drawing.Size(1099, 322)
         Me.GroupBox1.TabIndex = 101
         Me.GroupBox1.TabStop = False
         '
@@ -322,9 +322,9 @@ Public Class Cajas04
         Me.fechad.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.fechad.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.fechad.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
-        Me.fechad.Location = New System.Drawing.Point(199, 210)
+        Me.fechad.Location = New System.Drawing.Point(227, 266)
         Me.fechad.Name = "fechad"
-        Me.fechad.Size = New System.Drawing.Size(189, 28)
+        Me.fechad.Size = New System.Drawing.Size(216, 35)
         Me.fechad.TabIndex = 110
         Me.fechad.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
@@ -333,9 +333,9 @@ Public Class Cajas04
         Me.Label12.BackColor = System.Drawing.Color.SteelBlue
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.ForeColor = System.Drawing.Color.White
-        Me.Label12.Location = New System.Drawing.Point(6, 210)
+        Me.Label12.Location = New System.Drawing.Point(7, 266)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(173, 28)
+        Me.Label12.Size = New System.Drawing.Size(198, 35)
         Me.Label12.TabIndex = 109
         Me.Label12.Text = "Fecha:"
         Me.Label12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -344,10 +344,10 @@ Public Class Cajas04
         '
         Me.recibe.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.recibe.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
-        Me.recibe.Location = New System.Drawing.Point(704, 67)
+        Me.recibe.Location = New System.Drawing.Point(805, 85)
         Me.recibe.MaxLength = 25
         Me.recibe.Name = "recibe"
-        Me.recibe.Size = New System.Drawing.Size(242, 26)
+        Me.recibe.Size = New System.Drawing.Size(276, 30)
         Me.recibe.TabIndex = 108
         Me.recibe.Text = " "
         '
@@ -356,9 +356,9 @@ Public Class Cajas04
         Me.Label11.BackColor = System.Drawing.Color.SteelBlue
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.ForeColor = System.Drawing.Color.White
-        Me.Label11.Location = New System.Drawing.Point(512, 101)
+        Me.Label11.Location = New System.Drawing.Point(585, 128)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(173, 28)
+        Me.Label11.Size = New System.Drawing.Size(198, 35)
         Me.Label11.TabIndex = 107
         Me.Label11.Text = "Cobrar:"
         Me.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -367,10 +367,10 @@ Public Class Cajas04
         '
         Me.motivo.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.motivo.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
-        Me.motivo.Location = New System.Drawing.Point(704, 32)
+        Me.motivo.Location = New System.Drawing.Point(805, 41)
         Me.motivo.MaxLength = 25
         Me.motivo.Name = "motivo"
-        Me.motivo.Size = New System.Drawing.Size(242, 26)
+        Me.motivo.Size = New System.Drawing.Size(276, 30)
         Me.motivo.TabIndex = 104
         Me.motivo.Text = " "
         '
@@ -379,9 +379,9 @@ Public Class Cajas04
         Me.Label7.BackColor = System.Drawing.Color.SteelBlue
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.White
-        Me.Label7.Location = New System.Drawing.Point(512, 31)
+        Me.Label7.Location = New System.Drawing.Point(585, 39)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(173, 28)
+        Me.Label7.Size = New System.Drawing.Size(198, 36)
         Me.Label7.TabIndex = 105
         Me.Label7.Text = "Motivo:"
         Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -391,9 +391,9 @@ Public Class Cajas04
         Me.orden.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.orden.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.orden.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
-        Me.orden.Location = New System.Drawing.Point(199, 137)
+        Me.orden.Location = New System.Drawing.Point(227, 174)
         Me.orden.Name = "orden"
-        Me.orden.Size = New System.Drawing.Size(189, 28)
+        Me.orden.Size = New System.Drawing.Size(216, 35)
         Me.orden.TabIndex = 103
         Me.orden.Text = "0"
         Me.orden.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -403,9 +403,9 @@ Public Class Cajas04
         Me.Label10.BackColor = System.Drawing.Color.SteelBlue
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.White
-        Me.Label10.Location = New System.Drawing.Point(6, 137)
+        Me.Label10.Location = New System.Drawing.Point(7, 174)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(173, 28)
+        Me.Label10.Size = New System.Drawing.Size(198, 35)
         Me.Label10.TabIndex = 102
         Me.Label10.Text = "Orden:"
         Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -415,9 +415,9 @@ Public Class Cajas04
         Me.Label4.BackColor = System.Drawing.Color.SteelBlue
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(6, 66)
+        Me.Label4.Location = New System.Drawing.Point(7, 84)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(173, 28)
+        Me.Label4.Size = New System.Drawing.Size(198, 35)
         Me.Label4.TabIndex = 101
         Me.Label4.Text = "Tipo:"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -427,9 +427,9 @@ Public Class Cajas04
         Me.Label8.BackColor = System.Drawing.Color.SteelBlue
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.White
-        Me.Label8.Location = New System.Drawing.Point(512, 66)
+        Me.Label8.Location = New System.Drawing.Point(585, 84)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(173, 28)
+        Me.Label8.Size = New System.Drawing.Size(198, 35)
         Me.Label8.TabIndex = 97
         Me.Label8.Text = "Recibe:"
         Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -439,9 +439,9 @@ Public Class Cajas04
         Me.unid.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.unid.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.unid.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
-        Me.unid.Location = New System.Drawing.Point(199, 173)
+        Me.unid.Location = New System.Drawing.Point(227, 219)
         Me.unid.Name = "unid"
-        Me.unid.Size = New System.Drawing.Size(189, 28)
+        Me.unid.Size = New System.Drawing.Size(216, 36)
         Me.unid.TabIndex = 99
         Me.unid.Text = "0"
         Me.unid.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -451,26 +451,26 @@ Public Class Cajas04
         Me.Label9.BackColor = System.Drawing.Color.SteelBlue
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.White
-        Me.Label9.Location = New System.Drawing.Point(512, 137)
+        Me.Label9.Location = New System.Drawing.Point(585, 174)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(173, 28)
+        Me.Label9.Size = New System.Drawing.Size(198, 35)
         Me.Label9.TabIndex = 98
         Me.Label9.Text = "Unidades:"
         Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Label6
         '
-        Me.Label6.Location = New System.Drawing.Point(24, 664)
+        Me.Label6.Location = New System.Drawing.Point(27, 841)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(385, 18)
+        Me.Label6.Size = New System.Drawing.Size(440, 23)
         Me.Label6.TabIndex = 105
         Me.Label6.Text = "Double click elimina línea."
         '
         'Cajas04
         '
-        Me.AutoScaleBaseSize = New System.Drawing.Size(7, 15)
+        Me.AutoScaleBaseSize = New System.Drawing.Size(8, 19)
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(222, Byte), Integer), CType(CType(236, Byte), Integer), CType(CType(237, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(1007, 696)
+        Me.ClientSize = New System.Drawing.Size(1169, 696)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Cancela)
         Me.Controls.Add(Me.GroupBox1)

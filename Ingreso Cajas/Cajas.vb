@@ -23,7 +23,7 @@
         Return ok
     End Function
 
-    Public Function saldo_caja(ByRef co As DataTable, ByVal caja As String, ByVal tipo As String, ByVal talla As String, ByRef orden As String, ByRef fecha As String) As Integer
+   Public Function saldo_caja(ByRef co As DataTable, ByVal caja As String, ByVal tipo As String, ByVal talla As String, ByRef orden As String, ByRef fecha As String) As Integer
         Dim dd As DataRow()
         Dim dr As DataRow = Nothing
         Dim unidades As Integer = 0
