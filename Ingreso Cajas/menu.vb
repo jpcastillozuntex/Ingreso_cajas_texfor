@@ -279,7 +279,7 @@ Public Class menu
         Dim dr As DataRow
         Dim sec As String = ""
         contador = contador + 1
-        If contador > 3 Then
+        If contador > 6 Then
             End
         End If
         mn.menu(TextBox1.Text, usuario, ip, sec, dt, ok)

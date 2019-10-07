@@ -1099,6 +1099,7 @@ Module Module1
         Dim unidades As Integer = 0
         Dim strsql As String = "SELECT * FROM CAJAS01 WHERE CAJA = '" & caja & "' AND TIPO = '" & tipo & "' AND TALLA = '" & talla & "'"
         llena_tablas(dt, strsql, cnn)
+        '''Selecciona el escalar de cuantas unidades existentes hay
         If dt.Rows.Count > 0 Then
             dr = dt.Rows(0)
             unidades = dr("UNIDADES")

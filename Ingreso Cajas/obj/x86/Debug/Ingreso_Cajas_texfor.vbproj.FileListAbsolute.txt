@@ -100,3 +100,4 @@ C:\Users\Jose P. Castillo\Documents\GitHub\Ingreso_cajas_texfor\Ingreso Cajas\ob
 C:\Users\Jose P. Castillo\Documents\GitHub\Ingreso_cajas_texfor\Ingreso Cajas\obj\x86\Debug\Ingreso_Cajas_texfor.exe
 C:\Users\Jose P. Castillo\Documents\GitHub\Ingreso_cajas_texfor\Ingreso Cajas\obj\x86\Debug\Ingreso_Cajas_texfor.xml
 C:\Users\Jose P. Castillo\Documents\GitHub\Ingreso_cajas_texfor\Ingreso Cajas\obj\x86\Debug\Ingreso_Cajas_texfor.pdb
+C:\Users\Jose P. Castillo\Documents\GitHub\Ingreso_cajas_texfor\Ingreso Cajas\obj\x86\Debug\Ingreso_Cajas_texfor.vbprojAssemblyReference.cache
